@@ -21,7 +21,7 @@ for y in years:
     for m in range(0,len(months)):
 
         startDate = y + "-" + months[m] + "-" + startDay + "T" + startHour
-        endDate =  y + "-" + months[m] + "-" + endDay[m] + "T" + endHour
+        endDate = y + "-" + months[m] + "-" + endDay[m] + "T" + endHour
 
         PARAMS = {'start_date':startDate, 'end_date':endDate,"time_trunc":"hour", 'geo_limit': 'peninsular'}
 
